@@ -1,0 +1,45 @@
+<!doctype html>
+<!--
+This extension allows you to look up a word on the popular Japanese dictionary website Jisho. 
+You can click the extension icon and enter a word to look up, 
+or you can select a word to look up on the webpage you're viewing first.
+
+A popular extension similar like this, Rikaikun, already exists, but it only allows you to translate Japanese words.
+With this plugin you can easily get all information related to both English and Japanese words on Jisho.org. 
+Furthermore it's also a great tool when you're watching Japanese movies/trailers etc. in your browser 
+and you don't want to tab back and forth between Jisho and your viewing tab to look up Japanese words.
+
+Made by Nick. ~ (Student Japanology @ KUL, Belgium)
+www.twitter.com/@MoogleKupoCake 
+www.nickvanheer.com
+ -->
+<html>
+  <head>
+    <title>Jisho Lookup word</title>
+    <style>
+      body {
+       height: 500px;
+	   min-width: 400px;
+	   box-sizing: border-box;
+      }
+    #frameURL
+	{
+	 height: 500px;
+	 min-width: 400px;
+	
+	}
+    </style>
+
+    <!--
+      - JavaScript and HTML must be in separate files: see our Content Security
+      - Policy documentation[1] for details and explanation.
+      -
+      - [1]: https://developer.chrome.com/extensions/contentSecurityPolicy
+     -->
+    <script src="popup.js"></script>
+  </head>
+  <body>
+<iframe id="frameURL" src="http://jisho.org/" frameBorder="0"></iframe>
+  </body>
+</html>
+

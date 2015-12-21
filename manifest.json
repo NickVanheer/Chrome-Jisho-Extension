@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "Jisho word lookup",
+  "description": "This extension allows you to look up a word on the popular Japanese dictionary website Jisho. You can click the extension icon and enter a word to look up, or you can select a word to look up on the webpage you're viewing first.",
+  "version": "1.0",
+  "icons": { "64": "manifestlogo64.png",
+           "128": "manifestlogo128.png" 
+		   },
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}

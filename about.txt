@@ -1,0 +1,32 @@
+This extension allows you to look up a word on the popular Japanese dictionary website Jisho. 
+You can click the extension icon and enter a word to look up, 
+or you can select a word to look up on the webpage you're viewing first.
+
+A popular extension similar like this, Rikaikun, already exists, but it only allows you to translate Japanese words.
+With this plugin you can easily get all information related to both English and Japanese words on Jisho.org. 
+Furthermore it's also a great tool when you're watching Japanese movies/trailers etc. in your browser 
+and you don't want to tab back and forth between Jisho and your viewing tab to look up Japanese words.
+
+Made by Nick. ~ (Student Japanology @ KUL, Belgium)
+www.twitter.com/@MoogleKupoCake 
+www.nickvanheer.com
+
+----------------
+How to install
+----------------
+Unpack the files
+
+Open the extension page from the hamburger menu or go to chrome://extensions
+Click the "Load Unpacked Extension" and select the folder of this extension
+Your plugin should work and should be ready to use.
+
+Problems? There shouldn't be any, but if there are, enable developer mode in Chrome, and dive into the code yourself.
+
+
+---------------
+Special Thanks
+---------------
+http://jisho.org/
+They're really doing the hard work. 
+
+
